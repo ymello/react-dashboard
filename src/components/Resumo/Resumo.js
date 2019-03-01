@@ -28,8 +28,10 @@ export class Resumo extends Component {
 
   render() {
     return (
+    <div>
+      <h2 className="mt-2">Resumo</h2>
+      
       <div className="row"> 
-
         <div className="col">
           <div className="card mt-2 text-center">
             <div className="card-header">30 dias anteriores</div>
@@ -83,8 +85,8 @@ export class Resumo extends Component {
             </div>
           </div>
         </div>
-        
       </div>
+    </div>    
     );
   }
 }
