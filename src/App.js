@@ -4,6 +4,7 @@ import './App.css';
 import MenuSuperior from './components/MenuSuperior/MenuSuperior'
 import Resumo from './components/Resumo/Resumo'
 import Consultas from './components/Consultas/Consultas'
+import Faturamento from '/components/Faturamento/Faturamento'
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <MenuSuperior></MenuSuperior>
         <Resumo></Resumo>
         <Consultas></Consultas>
+        <Faturamento></Faturamento>
       </div>
     );
   }
