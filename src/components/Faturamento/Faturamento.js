@@ -29,7 +29,7 @@ export class Faturamento extends Component {
                             <table className="table">
                                 <thead>
                                     <tr>
-                                        <th>Descri??o</th>
+                                        <th>Descriçao</th>
                                         <th className="text-right">Valor</th>
                                     </tr>
                                 </thead>
